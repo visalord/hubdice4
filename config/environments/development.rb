@@ -8,6 +8,7 @@ Rails.application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
+  
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
@@ -26,6 +27,7 @@ Rails.application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  config.assets.initialize_on_precompile = false
 
   config.action_mailer.smtp_settings = {
     address: "smtp.sendgrid.net",
