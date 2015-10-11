@@ -1,283 +1,46 @@
-GEM
-  remote: https://rubygems.org
+PATH
+  remote: .
   specs:
-    actionmailer 
-      actionpack  
-      actionview  
-      mail    
-    actionpack 
-      actionview  
-      activesupport  
-      rack  
-      rack-test  
-    actionview 
-      activesupport  
-      builder  
-      erubis  
-    activemodel 
-      activesupport  
-      builder  
-    activerecord 
-      activemodel  
-      activesupport  
-      arel  
-    activesupport 
-      in    
-      json    
-      minitest  
-      thread_safe  
-      tzinfo  
-    addressable 
-    arel 
-    bcrypt 
-    better_errors 
-      coderay  
-      erubis  
-      rack  
-    binding_of_caller 
-      debug_inspector  
-    bitcoin-ruby 
-    bootstrap-material-design 
-      bootstrap-sass  
-    bootstrap-sass 
-      sass  
-    builder 
-    capybara 
-      mime-types  
-      nokogiri  
-      rack  
-      rack-test  
-      xpath  
-    capybara-webkit 
-      capybara    
-      json
-    chain-bitcoin-ruby 
-    chain-ruby 
-      chain-bitcoin-ruby  
-    coderay 
-    coffee-rails 
-      coffee-script  
-      railties    
-    coffee-script 
-      coffee-script-source
-      execjs
-    coffee-script-source 
-    database_cleaner 
-    debug_inspector 
-    devise 
-      bcrypt  
-      orm_adapter  
-      railties    
-      responders
-      thread_safe  
-      warden  
-    diff-lcs 
-    docile 
-    erubis 
-    execjs 
-    factory_girl 
-      activesupport  
-    factory_girl_rails 
-      factory_girl  
-      railties  
-    faker 
-      in  
-    ffi 
-    figaro 
-      thor  
-    font-awesome-rails 
-      railties    
-    haml beta
-      tilt
-    haml-rails 
-      actionpack  
-      activesupport  
-      haml    
-      railties  
-    hike 
-    hpricot 
-    htmlhaml 
-      erubis  
-      haml  rc
-      hpricot  
-      ruby_parser  
-    httparty 
-      json  
-      multi_xml  
-    httpclient 
-    in 
-    jbuilder 
-      activesupport    
-      multi_json  
-    jquery-nouislider-rails 
-      jquery-rails  
-    jquery-rails 
-      railties    
-      thor    
-    json 
-    kgio 
-    launchy 
-      addressable  
-    mail 
-      mime-types    
-    mime-types 
-    mini_portile 
-    minitest 
-    money-tree 
-      ffi
-    multi_json 
-    multi_xml 
-    nokogiri 
-      mini_portile  
-    onchain 
+    onchain (2.1.5)
       bitcoin-ruby
-      chain-ruby  
+      chain-ruby (~> 2.0.1)
       httparty
       money-tree
-    orm_adapter 
-    pg 
-    pusher 
-      httpclient  
-      multi_json  
-      signature  
-    quiet_assets 
-      railties    
-    rack 
-    rack-test 
-      rack  
-    rails 
-      actionmailer  
-      actionpack  
-      actionview  
-      activemodel  
-      activerecord  
-      activesupport  
-      bundler    
-      railties  
-      sprockets-rails  
-    rails_factor 
-      rails_serve_static_assets
-      rails_stdout_logging
-    rails_layout 
-    rails_serve_static_assets 
-    rails_stdout_logging 
-    railties 
-      actionpack  
-      activesupport  
-      rake  
-      thor    
-    raindrops 
-    rake 
-    rdoc 
-      json  
-    responders 
-      railties    
-    rqrcode 
-    rspec-core 
-      rspec-support  
-    rspec-expectations 
-      diff-lcs    
-      rspec-support  
-    rspec-mocks 
-      rspec-support  
-    rspec-rails 
-      actionpack  
-      activesupport  
-      railties  
-      rspec-core  
-      rspec-expectations  
-      rspec-mocks  
-      rspec-support  
-    rspec-support 
-    ruby_parser 
-      sexp_processor  
-    sass 
-    sass-rails 
-      railties    
-      sass  
-      sprockets    
-      sprockets-rails  
-    sdoc 
-      json    
-      rdoc  
-    sendgrid 
-      json
-      json
-    sexp_processor 
-    signature 
-    simplecov 
-      docile  
-      multi_json  
-      simplecov-html  
-    simplecov-html 
-    spring 
-    sprockets 
-      hike  
-      multi_json  
-      rack  
-      tilt   ! 
-    sprockets-rails 
-      actionpack  
-      activesupport  
-      sprockets    
-    sqlite 
-    thor 
-    thread_safe 
-    tilt 
-    turbolinks 
-      coffee-rails
-    tzinfo 
-      thread_safe  
-    uglifier 
-      execjs  
-      json  
-    unicorn 
-      kgio  
-      rack
-      raindrops  
-    warden 
-      rack  
-    xpath 
-      nokogiri  
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bitcoin-ruby (0.0.6)
+    chain-bitcoin-ruby (0.0.1)
+    chain-ruby (2.0.1)
+      chain-bitcoin-ruby (= 0.0.1)
+    diff-lcs (1.2.5)
+    ffi (1.9.6)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.2)
+    money-tree (0.8.8)
+      ffi
+    multi_xml (0.5.5)
+    rake (10.4.2)
+    rspec (3.1.0)
+      rspec-core (~> 3.1.0)
+      rspec-expectations (~> 3.1.0)
+      rspec-mocks (~> 3.1.0)
+    rspec-core (3.1.7)
+      rspec-support (~> 3.1.0)
+    rspec-expectations (3.1.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.1.0)
+    rspec-mocks (3.1.3)
+      rspec-support (~> 3.1.0)
+    rspec-support (3.1.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  better_errors
-  binding_of_caller
-  bootstrap-material-design
-  bootstrap-sass
-  capybara
-  capybara-webkit
-  coffee-rails  
-  database_cleaner
-  devise
-  factory_girl_rails
-  faker
-  figaro
-  font-awesome-rails
-  haml-rails
-  htmlhaml
-  jbuilder  
-  jquery-nouislider-rails
-  jquery-rails
-  launchy
-  onchain
-  pg
-  pusher
-  quiet_assets
-  rails  
-  rails_factor
-  rails_layout
-  rqrcode
-  rspec-rails
-  sass-rails  
-  sdoc  
-  sendgrid
-  simplecov
-  spring
-  sqlite
-  turbolinks
-  uglifier  
-  unicorn
+  onchain!
+  rake
+  rspec (~> 3.1.0)
